@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "156444450593",
+    "project_id": "projetoaf-319a0",
+    "storage_bucket": "projetoaf-319a0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156444450593:android:abcb33bcc83cf180956860",
+        "android_client_info": {
+          "package_name": "com.example.afmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_2TyM2QHVcIFiwb3W4AzYhRvY36yl7HI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156444450593:android:0c9df8e0b1a448f1956860",
+        "android_client_info": {
+          "package_name": "com.gpslugares"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_2TyM2QHVcIFiwb3W4AzYhRvY36yl7HI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout da tela de edição de local salvo -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nome do local (não editável) -->
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do local"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Tipo do local (não editável) -->
+    <TextView
+        android:id="@+id/tvTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo do local"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Campo de observação (editável, preenchido com valor atual) -->
+    <EditText
+        android:id="@+id/etObservacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite sua observação"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:gravity="top|start"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Spinner de categorias pessoais (pré-selecionado com categoria salva) -->
+    <Spinner
+        android:id="@+id/spinnerCategoriaPessoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Botão para salvar alterações -->
+    <Button
+        android:id="@+id/btnSalvarAlteracoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar Alterações" />
+
+</LinearLayout>

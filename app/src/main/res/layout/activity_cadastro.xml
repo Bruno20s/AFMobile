@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout da tela de cadastro de local no Firebase -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CadastroActivity">
+
+    <!-- Nome do local -->
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Nome: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Tipo do local -->
+    <TextView
+        android:id="@+id/tvTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Tipo: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Latitude do local -->
+    <TextView
+        android:id="@+id/tvLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Latitude: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Longitude do local -->
+    <TextView
+        android:id="@+id/tvLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Longitude: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Campo de observação pessoal -->
+    <EditText
+        android:id="@+id/etObservacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Digite sua observação"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+    <!-- Spinner de categorias pessoais -->
+    <Spinner
+        android:id="@+id/spinnerCategoriaPessoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Botão para salvar no Firebase -->
+    <Button
+        android:id="@+id/btnSalvarFirebase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar no Firebase" />
+
+</LinearLayout>

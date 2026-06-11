@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout do card para exibir um local salvo na lista -->
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:contentPadding="16dp">
+
+    <!-- Layout interno do card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Nome do local salvo -->
+        <TextView
+            android:id="@+id/tvNomeLocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome do Local"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Categoria pessoal do local -->
+        <TextView
+            android:id="@+id/tvCategoriaLocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Categoria"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Observação pessoal do usuário -->
+        <TextView
+            android:id="@+id/tvObservacaoLocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Observação"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Coordenadas (latitude e longitude) -->
+        <TextView
+            android:id="@+id/tvCoordenadasLocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coordenadas"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
